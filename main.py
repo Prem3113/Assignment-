@@ -12,10 +12,10 @@ class Solution:
                 if j== len (Str) - 1:
                    newString = newString + str (count) + Str[j] 
                    break
-	            if Str[j] == Str[j+1]:
-	                count += 1
-	            else:
-	                newString = newString + str (count) + Str[j]
-	                count = 1 
-	        Str = newString 
-	   return newString
+	           if Str[j] == Str[j+1]:
+	               count += 1
+	           else:
+	               newString = newString + str (count) + Str[j]
+	               count = 1 
+	     Str = newString 
+	return newString
